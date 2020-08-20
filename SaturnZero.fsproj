@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Shared.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
@@ -15,6 +16,7 @@
 
   <ItemGroup>
     <PackageReference Include="Saturn" Version="0.14.1" />
+    <PackageReference Include="Thoth.Json.Giraffe" Version="4.2.0" />
   </ItemGroup>
 
 </Project>
